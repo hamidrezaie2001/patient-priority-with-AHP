@@ -1,0 +1,788 @@
+{
+  "$id": "1",
+  "ModelName": "Analytic Hierarchy Process",
+  "ProjectVersion": "5.0",
+  "AppName": "Analytic Hierarchy Process",
+  "AppAssemblyFilePath": "D:\\مدل سازی ریاضی\\Analytic Hierarchy Process.exe",
+  "AppAssemblyVersion": "4.2.6",
+  "LoadedProjectFilePath": "C:\\Users\\hamidreza\\Documents\\DT\\تعیین میزان اولویت بیماران در مرکز درمانی.ahpDecision",
+  "MainViewModelInstance": {
+    "$id": "2"
+  },
+  "OptionViewModelInstance": {
+    "$id": "3",
+    "LastSelectedOption": {
+      "$id": "4",
+      "ObjectiveValueList": [
+        {
+          "$id": "5",
+          "Children": [],
+          "Objective": {
+            "$id": "6",
+            "Id": 1,
+            "Name": "میزان فراگیر بودن بین بیماران",
+            "Children": [],
+            "IsProcessed": true,
+            "ItemIndex": 1,
+            "TooltipDescription": "",
+            "ObjectiveWeight": 0.1334776334776335,
+            "ObjectiveAttribute": {
+              "$id": "7",
+              "AttributeData": {
+                "$id": "8",
+                "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                "MaximumSliderValue": 100,
+                "Step": 1
+              },
+              "SubjectiveData": {
+                "$ref": "8"
+              }
+            },
+            "ObjectiveRange": "0 to 1",
+            "ObjectiveColor": "#FFA5446B"
+          },
+          "IsAllPairComparisonCompleted": true,
+          "AttributeTypeValueBase": {
+            "$id": "9",
+            "TableExpressionList": [],
+            "VariableValues": [],
+            "RealValue": 0.61996778109049966,
+            "SliderValue": 62
+          },
+          "CashFlowDate": "2023-06-04T11:29:49.5065218Z",
+          "TimePeriod": 5
+        },
+        {
+          "$id": "10",
+          "Children": [],
+          "Objective": {
+            "$id": "11",
+            "Id": 2,
+            "Name": "میزان تاثیر بر روی انتظار بیماران",
+            "Children": [],
+            "IsProcessed": true,
+            "ItemIndex": 2,
+            "TooltipDescription": "",
+            "ObjectiveWeight": 0.65512265512265511,
+            "ObjectiveAttribute": {
+              "$id": "12",
+              "AttributeData": {
+                "$id": "13",
+                "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                "MaximumSliderValue": 100,
+                "Step": 1
+              },
+              "SubjectiveData": {
+                "$ref": "13"
+              }
+            },
+            "ObjectiveRange": "0 to 1",
+            "ObjectiveColor": "#FF808000"
+          },
+          "IsAllPairComparisonCompleted": true,
+          "AttributeTypeValueBase": {
+            "$id": "14",
+            "TableExpressionList": [],
+            "VariableValues": [],
+            "RealValue": 0.32644022644022641,
+            "SliderValue": 33
+          },
+          "CashFlowDate": "2023-06-04T11:29:49.5291446Z",
+          "TimePeriod": 5
+        },
+        {
+          "$id": "15",
+          "Children": [],
+          "Objective": {
+            "$id": "16",
+            "Id": 3,
+            "Name": "میزان خطرناک بودن نوع بیماری",
+            "Children": [],
+            "IsProcessed": true,
+            "ItemIndex": 3,
+            "TooltipDescription": "",
+            "ObjectiveWeight": 0.21139971139971139,
+            "ObjectiveAttribute": {
+              "$id": "17",
+              "AttributeData": {
+                "$id": "18",
+                "$type": "SharedViews.ViewModels.Core.Attributes.SubjectiveAttribute, SharedViews.ViewModels",
+                "MaximumSliderValue": 100,
+                "Step": 1
+              },
+              "SubjectiveData": {
+                "$ref": "18"
+              }
+            },
+            "ObjectiveRange": "0 to 1",
+            "ObjectiveColor": "#FFB87800"
+          },
+          "IsAllPairComparisonCompleted": true,
+          "AttributeTypeValueBase": {
+            "$id": "19",
+            "TableExpressionList": [],
+            "VariableValues": [],
+            "RealValue": 0.555108359133127,
+            "SliderValue": 56
+          },
+          "CashFlowDate": "2023-06-04T11:29:49.5291446Z",
+          "TimePeriod": 5
+        }
+      ],
+      "ID": 1,
+      "Name": "فشار خون",
+      "ExpectedValue": 0.41395996705301169,
+      "OptionColor": "#A6A05000",
+      "IsUVFieldVisible": true,
+      "IsRVCompareFieldVisible": true
+    },
+    "ObjectiveValueComparisons": [
+      {
+        "$id": "20",
+        "AllUsedPairComparisons": [
+          {
+            "$id": "21",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "دیابت",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "22",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "معلولیت",
+            "SliderValue": 90,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "23",
+            "LeftItemName": "دیابت",
+            "RightItemName": "معلولیت",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "24",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 88,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "25",
+            "LeftItemName": "دیابت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 84,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "26",
+            "LeftItemName": "معلولیت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 33,
+            "IsPairComparisonCompleted": true
+          }
+        ],
+        "Objective": {
+          "$ref": "6"
+        },
+        "ConsistencyRatio": 0.059496893376503754,
+        "PairComparisons": [
+          {
+            "$ref": "21"
+          },
+          {
+            "$ref": "22"
+          },
+          {
+            "$ref": "23"
+          },
+          {
+            "$ref": "24"
+          },
+          {
+            "$ref": "25"
+          },
+          {
+            "$ref": "26"
+          }
+        ]
+      },
+      {
+        "$id": "27",
+        "AllUsedPairComparisons": [
+          {
+            "$id": "28",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "دیابت",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "29",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "معلولیت",
+            "SliderValue": 33,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "30",
+            "LeftItemName": "دیابت",
+            "RightItemName": "معلولیت",
+            "SliderValue": 20,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "31",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "32",
+            "LeftItemName": "دیابت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 50,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "33",
+            "LeftItemName": "معلولیت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 84,
+            "IsPairComparisonCompleted": true
+          }
+        ],
+        "Objective": {
+          "$ref": "11"
+        },
+        "ConsistencyRatio": 0.017515886247515502,
+        "PairComparisons": [
+          {
+            "$ref": "28"
+          },
+          {
+            "$ref": "29"
+          },
+          {
+            "$ref": "30"
+          },
+          {
+            "$ref": "31"
+          },
+          {
+            "$ref": "32"
+          },
+          {
+            "$ref": "33"
+          }
+        ]
+      },
+      {
+        "$id": "34",
+        "AllUsedPairComparisons": [
+          {
+            "$id": "35",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "دیابت",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "36",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "معلولیت",
+            "SliderValue": 80,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "37",
+            "LeftItemName": "دیابت",
+            "RightItemName": "معلولیت",
+            "SliderValue": 75,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "38",
+            "LeftItemName": "فشار خون",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 84,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "39",
+            "LeftItemName": "دیابت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 75,
+            "IsPairComparisonCompleted": true
+          },
+          {
+            "$id": "40",
+            "LeftItemName": "معلولیت",
+            "RightItemName": "اعتیاد به مصرف الکل",
+            "SliderValue": 33,
+            "IsPairComparisonCompleted": true
+          }
+        ],
+        "Objective": {
+          "$ref": "16"
+        },
+        "ConsistencyRatio": 0.07880576246032267,
+        "PairComparisons": [
+          {
+            "$ref": "35"
+          },
+          {
+            "$ref": "36"
+          },
+          {
+            "$ref": "37"
+          },
+          {
+            "$ref": "38"
+          },
+          {
+            "$ref": "39"
+          },
+          {
+            "$ref": "40"
+          }
+        ]
+      }
+    ],
+    "CanChangeEnforceTransitivity": true,
+    "OptionList": [
+      {
+        "$ref": "4"
+      },
+      {
+        "$id": "41",
+        "$type": "AnalyticHierarchyProcess.ViewModels.Core.Option.OptionModel, AnalyticHierarchyProcess.ViewModels",
+        "ObjectiveValueList": [
+          {
+            "$id": "42",
+            "Children": [],
+            "Objective": {
+              "$ref": "6"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "43",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.24252088045781009,
+              "SliderValue": 24
+            },
+            "CashFlowDate": "2023-06-04T11:30:00.1175151Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "44",
+            "Children": [],
+            "Objective": {
+              "$ref": "11"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "45",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.097635697635697655,
+              "SliderValue": 10
+            },
+            "CashFlowDate": "2023-06-04T11:30:00.1175151Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "46",
+            "Children": [],
+            "Objective": {
+              "$ref": "16"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "47",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.2348297213622291,
+              "SliderValue": 23
+            },
+            "CashFlowDate": "2023-06-04T11:30:00.1175151Z",
+            "TimePeriod": 5
+          }
+        ],
+        "ID": 2,
+        "Name": "دیابت",
+        "ExpectedValue": 0.14597740598632142,
+        "OptionColor": "#A600ABA9",
+        "IsUVFieldVisible": true,
+        "IsRVCompareFieldVisible": true
+      },
+      {
+        "$id": "48",
+        "$type": "AnalyticHierarchyProcess.ViewModels.Core.Option.OptionModel, AnalyticHierarchyProcess.ViewModels",
+        "ObjectiveValueList": [
+          {
+            "$id": "49",
+            "Children": [],
+            "Objective": {
+              "$ref": "6"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "50",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.05482180615960057,
+              "SliderValue": 5
+            },
+            "CashFlowDate": "2023-06-04T11:30:12.7284559Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "51",
+            "Children": [],
+            "Objective": {
+              "$ref": "11"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "52",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.48469863469863472,
+              "SliderValue": 48
+            },
+            "CashFlowDate": "2023-06-04T11:30:12.7284559Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "53",
+            "Children": [],
+            "Objective": {
+              "$ref": "16"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "54",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.089628482972136228,
+              "SliderValue": 9
+            },
+            "CashFlowDate": "2023-06-04T11:30:12.7284559Z",
+            "TimePeriod": 5
+          }
+        ],
+        "ID": 3,
+        "Name": "معلولیت",
+        "ExpectedValue": 0.34380197688075204,
+        "OptionColor": "#A6D80073",
+        "IsUVFieldVisible": true,
+        "IsRVCompareFieldVisible": true
+      },
+      {
+        "$id": "55",
+        "$type": "AnalyticHierarchyProcess.ViewModels.Core.Option.OptionModel, AnalyticHierarchyProcess.ViewModels",
+        "ObjectiveValueList": [
+          {
+            "$id": "56",
+            "Children": [],
+            "Objective": {
+              "$ref": "6"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "57",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.082689532292089724,
+              "SliderValue": 8
+            },
+            "CashFlowDate": "2023-06-04T11:30:40.4955381Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "58",
+            "Children": [],
+            "Objective": {
+              "$ref": "11"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "59",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.091225441225441239,
+              "SliderValue": 9
+            },
+            "CashFlowDate": "2023-06-04T11:30:40.4955381Z",
+            "TimePeriod": 5
+          },
+          {
+            "$id": "60",
+            "Children": [],
+            "Objective": {
+              "$ref": "16"
+            },
+            "IsAllPairComparisonCompleted": true,
+            "AttributeTypeValueBase": {
+              "$id": "61",
+              "TableExpressionList": [],
+              "VariableValues": [],
+              "RealValue": 0.12043343653250774,
+              "SliderValue": 12
+            },
+            "CashFlowDate": "2023-06-04T11:30:40.4955381Z",
+            "TimePeriod": 5
+          }
+        ],
+        "ID": 4,
+        "Name": "اعتیاد به مصرف الکل",
+        "ExpectedValue": 0.09626065007991487,
+        "OptionColor": "#A6F09609",
+        "IsUVFieldVisible": true,
+        "IsRVCompareFieldVisible": true
+      }
+    ],
+    "EnabledOptionList": [
+      {
+        "$ref": "4"
+      },
+      {
+        "$ref": "41"
+      },
+      {
+        "$ref": "48"
+      },
+      {
+        "$ref": "55"
+      }
+    ]
+  },
+  "ObjectiveViewModelInstance": {
+    "$id": "62",
+    "AllUsedPairComparisonItems": [
+      {
+        "$id": "63",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "میزان فراگیر بودن بین بیماران",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "میزان تاثیر بر روی انتظار بیماران",
+        "RightItemDescription": "",
+        "SliderValue": 20,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      },
+      {
+        "$id": "64",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "میزان فراگیر بودن بین بیماران",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "میزان خطرناک بودن نوع بیماری",
+        "RightItemDescription": "",
+        "SliderValue": 33,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      },
+      {
+        "$id": "65",
+        "LeftItemTitle": "Maximize",
+        "LeftItemName": "میزان تاثیر بر روی انتظار بیماران",
+        "LeftItemDescription": "",
+        "RightItemTitle": "Maximize",
+        "RightItemName": "میزان خطرناک بودن نوع بیماری",
+        "RightItemDescription": "",
+        "SliderValue": 80,
+        "IsPairComparisonCompleted": true,
+        "ParentGroupName": "Root"
+      }
+    ],
+    "BackupPairComparisonItems": [
+      {
+        "$ref": "63"
+      },
+      {
+        "$ref": "64"
+      },
+      {
+        "$ref": "65"
+      }
+    ],
+    "ParentGroup": {
+      "Root": true
+    },
+    "IsAHPApp": true,
+    "EvaluatedObjectiveList": [
+      {
+        "$ref": "6"
+      },
+      {
+        "$ref": "11"
+      },
+      {
+        "$ref": "16"
+      }
+    ],
+    "PairComparisonList": [
+      {
+        "$ref": "63"
+      },
+      {
+        "$ref": "64"
+      },
+      {
+        "$ref": "65"
+      }
+    ],
+    "WeightAssignmentList": [],
+    "IsObjectiveWizardPanelExpanded": true,
+    "CanChangeEnforceTransitivity": true,
+    "MultiCriteriaUtilityFunction": "0.13 * [میزان فراگیر بودن بین بیماران] + 0.66 * [میزان تاثیر بر روی معطلی بیماران] + 0.21 * [میزان خطرناک بودن نوع بیماری]",
+    "MultiCriteriaUtilityFunctionUnit": "Utils",
+    "MultiCriteriaUtilityFunctionName": "Value",
+    "CurrentParentGroup": "Root"
+  },
+  "ScalingFunctionMenuViewModelInstance": {
+    "$id": "66",
+    "$type": "AnalyticHierarchyProcess.ViewModels.MenuViewModels.ScalingFunctionMenuViewModel, AnalyticHierarchyProcess.ViewModels",
+    "SelectedValueDimension": 1,
+    "ValueDimensionList": []
+  },
+  "OptionStrategyMenuViewModelInstance": {
+    "$id": "67",
+    "ProbabilityToleranceSliderValue": 5.0,
+    "HurwiczParameter": {
+      "$id": "68",
+      "DeviationFromBestPayOffSliderValue": 20,
+      "DeviationFromWorstPayOffSliderValue": 20,
+      "DegreeOfOptimismSliderValue": 50
+    },
+    "IsStrategyMenuVisible": true,
+    "SelectedDecisionCriterionName": 1,
+    "DecisionCriterionDisabledTooltip": "",
+    "MonteSimulationData": {
+      "$id": "69",
+      "PreviousSelectedExecutionType": 2,
+      "SelectedExecutionType": 2,
+      "NumberOfBins": 12,
+      "NumberOfIteration": 1000
+    }
+  },
+  "GlobalPreferenceMenuViewModelInstance": {
+    "$id": "70",
+    "UnitOfUtility": "Utils"
+  },
+  "MethodsMenuViewModelInstance": {
+    "$id": "71",
+    "SelectedMethodType": "Approximate",
+    "SelectedWeightAttributeCombination": "WeightedSum"
+  },
+  "OptionsAnalyzerViewModelInstance": {
+    "$id": "72",
+    "SelectedMetrics": {},
+    "MetricsUncheckedByUser": {},
+    "ExpectedValueOfPerfectInformation": "NaN",
+    "DisplayableColumnList": [
+      {
+        "$id": "73",
+        "ColumnDisplayName": "Priorities",
+        "Description": "Priorities",
+        "CheckedByDefault": true,
+        "UseChart": true,
+        "Unit": "",
+        "CorrespondingPropertyName": "ExpectedValue",
+        "UseColorsToShowDisqualifySatisfyStatus": true
+      }
+    ],
+    "RangeChartList": [],
+    "IsRelativeToStatusQuoChecked": false
+  },
+  "SensitivityAnalyzerViewModelInstance": {
+    "$id": "74",
+    "BringSensitivityObjectToView": {
+      "$id": "75",
+      "$type": "AnalyticHierarchyProcess.AppComponent.Handlers.BringSensitivityObjectToView, AnalyticHierarchyProcess.AppComponent"
+    },
+    "IsConsiderObjectiveWeights": true,
+    "IsConsiderObjectiveValues": true,
+    "IsConsiderProbabilities": true
+  },
+  "SharedViewModelInstance": {
+    "$id": "76",
+    "ExpectedValueTitle": "Priorities"
+  },
+  "ObjectiveDiagramViewModel": {
+    "$id": "77",
+    "NodesDataModelList": [
+      {
+        "$id": "78",
+        "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+        "IsRootNode": true,
+        "ChildNodes": [
+          {
+            "$id": "79",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "ParentId": 1,
+            "ChildNodes": [],
+            "NodeId": 2,
+            "Title": "میزان فراگیر بودن بین بیماران",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.1334776334776335
+          },
+          {
+            "$id": "80",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "ParentId": 1,
+            "ChildNodes": [],
+            "NodeId": 3,
+            "Title": "میزان تاثیر بر روی انتظار بیماران",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.65512265512265511
+          },
+          {
+            "$id": "81",
+            "ThisClassId": "15f53199-0433-4709-a7c7-5e04fdcc4eff",
+            "OrderNoInParent": 1,
+            "ParentId": 1,
+            "ChildNodes": [],
+            "NodeId": 4,
+            "Title": "میزان خطرناک بودن نوع بیماری",
+            "NodeType": 1,
+            "ObjectiveWeight": 0.21139971139971139
+          }
+        ],
+        "NodeId": 1,
+        "Title": "تعیین میزان اولویت بیماران در مرکز درمانی"
+      },
+      {
+        "$ref": "79"
+      },
+      {
+        "$ref": "80"
+      },
+      {
+        "$ref": "81"
+      }
+    ],
+    "ValueNodeWidth": 90.0,
+    "NodeHorizontalSpacing": 30.0,
+    "NodeVerticalSpacing": 45.0,
+    "DiagramOverviewZoomFactor": 1.0
+  },
+  "GroupDecisionViewModelInstance": {
+    "$id": "82",
+    "GroupDecisionMemberList": [],
+    "ShowWelcomeScreen": true
+  },
+  "ProblemStatement": "تعیین میزان اولویت بیماران در مرکز درمانی",
+  "IsThisProjectLoadedFromAFile": true,
+  "ProjectExtension": "ahpDecision",
+  "OpenFileDialogHeader": "Opening an Analytic Hierarchy Process project",
+  "SaveFileDialogHeader": "Saving an Analytic Hierarchy Process project",
+  "FileDialogFilter": "Analytic Hierarchy Process File (*.ahpDecision)|*.ahpDecision;",
+  "IsBusyInProcessing": true
+}
