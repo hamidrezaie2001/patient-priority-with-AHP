@@ -1,2 +1,2 @@
 # patient-priority-with-AHP
-Hierarchical analysis method is proposed in decision-making models with multiple objectives. The basis of using this method is to rely on the data and opinions of experts in the field under investigation. 
+The hierarchical analysis method is proposed in decision-making models with multiple objectives. The basis of using this method is to rely on the data and opinions of experts in the field under investigation. In the data of the treatment center, 4 types of diseases and medical problems have been reported for patients, and here we are trying to find the importance of each of these 4 cases.
